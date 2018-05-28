@@ -33,7 +33,7 @@ var DeleteInvoice=require('./routes/deleteinvoice');
 var DeleteProduct=require('./routes/deleteproduct');
 var DeletePurchase=require('./routes/deletepurchase');
 var DeleteSeller=require('./routes/deleteseller');
-
+//var frmvoucher=require('./routes/voucher_from');
 
 
 var app = express();
@@ -78,7 +78,7 @@ app.use('/deleteinvoice',DeleteInvoice);
 app.use('/deleteproduct',DeleteProduct);
 app.use('/deletepurchase',DeletePurchase);
 app.use('/deleteseller',DeleteSeller);
-
+//app.use('/frmvoucher',frmvoucher);
 
 
 
